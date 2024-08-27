@@ -11,3 +11,13 @@ function opentab(tabname){
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
 }
+let clos=document.querySelector(".fa-times");
+let opn=document.querySelector(".fa-solid");
+let sidemenu=document.querySelector("#sidemenu");
+
+function openmenu(){
+    sidemenu.style.right="0";
+}
+function closemenu(){
+    sidemenu.style.right="-230px";
+}
